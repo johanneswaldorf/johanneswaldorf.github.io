@@ -1,11 +1,16 @@
+/*Colors
+red = E64747
+grey_board = D9CFCF
+shadow_board = ABA9A9
+background = EDE7E7
+
+*/
+
+
+
 @font-face {
-  font-family: 'ostrich-sans';
-  src: url('fonts/ostrich-sans.eot'); /* IE9 Compat Modes */
-  src: url('fonts/ostrich-sans.eot.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('fonts/ostrich-sans.eot.woff2') format('woff2'), /* Super Modern Browsers */
-       url('fonts/ostrich-sans.eot.woff') format('woff'), /* Pretty Modern Browsers */
-       url('fonts/ostrich-sans.eot.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('fonts/ostrich-sans.eot.svg#svgFontName') format('svg'); /* Legacy iOS */
+    font-family: ostrich-sans;
+    src: url(css/fonts/ostrich-sans.eot.woff);
 }
 
 
@@ -14,6 +19,23 @@ body {
     background-color: #EDE7E7;
 }
 
+screen {
+  position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 500px;
+    background-color: #D9CFCF;
+    border-radius: 7px;
+    box-shadow: 2px 2px 15px #ABA9A9;
+
+
+}
+
+
 h1 {
   font-family: 'ostrich-sans';
+   text-align: center;
+   color: #E64747;
 }
