@@ -1,3 +1,15 @@
+
+
+@font-face {
+  font-family: 'ostrich-sans';
+  src: local('css/fonts/OstrichSans-Mediumm.otf')
+}
+
+
 body {
-    background-color: lightblue;
+    background-color: #EDE7E7;
+}
+
+h1 {
+  font-family: 'ostrich-sans';
 }
