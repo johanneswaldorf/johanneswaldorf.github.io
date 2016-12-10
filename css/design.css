@@ -10,7 +10,7 @@ background = EDE7E7
 
 @font-face {
     font-family: ostrich-sans;
-    src: url(css/fonts/ostrich-sans.eot.woff);
+    src: url(fonts/ostrich-sans.woff);
 }
 
 
@@ -35,7 +35,12 @@ screen {
 
 
 h1 {
+  position: fixed;
+    top: 4%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   font-family: 'ostrich-sans';
    text-align: center;
+   font-size: 4em;
    color: #E64747;
 }
